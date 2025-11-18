@@ -1,10 +1,10 @@
-import { Button } from '@paletto/ui'
+import { Button } from "@paletto/ui";
 
 export default function Page() {
   return (
     <div className="p-6 space-y-4">
-      <h1 className="text-2xl font-bold">Admin Panel</h1>
+      <h1 className="text-2xl font-thin">Admin Panel</h1>
       <Button>Save</Button>
     </div>
-  )
+  );
 }
