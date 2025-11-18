@@ -1,0 +1,9 @@
+{
+  "name": "@paletto/tailwind-config",
+  "private": true,
+  "version": "0.1.0",
+  "main": "./theme.css",
+  "peerDependencies": {
+    "tailwindcss": "^4.0.0"
+  }
+}

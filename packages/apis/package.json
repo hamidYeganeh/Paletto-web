@@ -1,0 +1,10 @@
+{
+  "name": "@paletto/apis",
+  "private": true,
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "peerDependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "react": "^18 || ^19"
+  }
+}

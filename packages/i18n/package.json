@@ -1,0 +1,10 @@
+{
+  "name": "@paletto/i18n",
+  "private": true,
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "peerDependencies": {
+    "next-intl": "^3.0.0",
+    "react": "^18 || ^19"
+  }
+}

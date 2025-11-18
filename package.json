@@ -1,0 +1,32 @@
+{
+  "name": "paletto-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "npm@10.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "start": "turbo run start --parallel",
+    "dev:landing": "npm run dev -w apps/landing",
+    "dev:client": "npm run dev -w apps/client-dashboard",
+    "dev:artist": "npm run dev -w apps/artist-dashboard",
+    "dev:admin": "npm run dev -w apps/admin-panel",
+    "build:landing": "npm run build -w apps/landing",
+    "build:client": "npm run build -w apps/client-dashboard",
+    "build:artist": "npm run build -w apps/artist-dashboard",
+    "build:admin": "npm run build -w apps/admin-panel",
+    "start:landing": "npm run start -w apps/landing",
+    "start:client": "npm run start -w apps/client-dashboard",
+    "start:artist": "npm run start -w apps/artist-dashboard",
+    "start:admin": "npm run start -w apps/admin-panel"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "turbo": "latest",
+    "typescript": "latest"
+  }
+}
