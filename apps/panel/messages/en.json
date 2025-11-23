@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "title": "Paletto Admin Panel",
+    "description": "Admin panel for Paletto Web"
+  },
+  "home": {
+    "welcome": "Admin Panel",
+    "intro": "Manage your application settings.",
+    "today": "Today is {date, date, long}.",
+    "visits": "Total visits: {count, number, compact}"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "پالتو وب",
+    "description": "وب‌سایت اصلی پالتو وب"
+  },
+  "home": {
+    "welcome": "به پالتو وب خوش آمدید",
+    "intro": "این صفحه کاملاً بومی‌سازی شده است.",
+    "today": "امروز {date, date, long} است.",
+    "visits": "تعداد بازدیدها: {count, number, compact}"
+  },
+  "actions": {
+    "switchToFa": "تغییر زبان به فارسی",
+    "switchToEn": "تغییر زبان به انگلیسی"
+  }
+}

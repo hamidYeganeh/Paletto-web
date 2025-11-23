@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Paletto Web",
+    "description": "Main website for Paletto Web"
+  },
+  "home": {
+    "welcome": "Welcome to Paletto Web",
+    "intro": "This page is fully localized.",
+    "today": "Today is {date, date, long}.",
+    "visits": "Total visits: {count, number, compact}"
+  },
+  "actions": {
+    "switchToFa": "Switch to Persian",
+    "switchToEn": "Switch to English"
+  }
+}
