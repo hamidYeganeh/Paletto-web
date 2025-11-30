@@ -3,11 +3,9 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+[data-theme="dark"] {
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 html,
@@ -37,10 +35,10 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
+  html[data-theme="dark"],
+  html:not([data-theme]) {
     color-scheme: dark;
   }
-
   .imgLight {
     display: none;
   }
